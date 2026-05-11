@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+        }
+
+        .d1{
+            width: 350px;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .d1 h2{
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .input-group{
+            margin-bottom: 18px;
+        }
+
+        label{
+            display: block;
+            margin-bottom: 6px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        input{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input:focus{
+            border-color: #6c63ff;
+            box-shadow: 0 0 8px rgba(108,99,255,0.5);
+        }
+
+        .btn{
+            width: 100%;
+            background: #6c63ff;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover{
+            background: #574bdb;
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="d1">
+        <h2>Registration Form</h2>
+
+        <div class="input-group">
+            <label>Username</label>
+            <input type="text" placeholder="Enter Username">
+        </div>
+
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password">
+        </div>
+
+        <div class="input-group">
+            <label>Email</label>
+            <input type="email" placeholder="Enter Email">
+        </div>
+
+        <div>
+            <input type="submit" value="Register" class="btn">
+        </div>
+    </div>
+
+</body>
+</html>
