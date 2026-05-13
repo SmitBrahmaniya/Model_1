@@ -1,0 +1,6 @@
+Login page
+Reg page
+home page
+category page
+prod details page
+contanc us page
