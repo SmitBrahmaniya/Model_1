@@ -1,0 +1,171 @@
+/* products.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    color: white;
+}
+
+/* Top Banner */
+
+.topBanner {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.topBanner h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #38bdf8;
+}
+
+.topBanner p {
+    font-size: 18px;
+    color: #cbd5e1;
+}
+
+/* Product Section */
+
+.allProducts {
+    width: 90%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+/* Watch Card */
+
+.watchCard {
+    background-color: #1e293b;
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.watchCard:hover {
+    transform: translateY(-8px);
+}
+
+/* Image */
+
+.watchCard img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+/* Content */
+
+.watchInfo {
+    padding: 20px;
+}
+
+.watchInfo h2 {
+    margin-bottom: 12px;
+    color: #38bdf8;
+}
+
+.watchText {
+    color: #cbd5e1;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Price */
+
+.watchPrice {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.watchPrice s {
+    color: gray;
+    margin-right: 10px;
+}
+
+.watchPrice span {
+    color: #22c55e;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Buttons */
+
+.watchButtons {
+    display: flex;
+    gap: 10px;
+}
+
+.addCartBtn {
+    flex: 1;
+
+    padding: 12px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #38bdf8;
+    color: white;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.addCartBtn:hover {
+    background-color: #0ea5e9;
+}
+
+.moreBtn {
+    text-decoration: none;
+
+    padding: 12px 16px;
+
+    border-radius: 10px;
+
+    background-color: #334155;
+    color: white;
+
+    transition: 0.3s;
+}
+
+.moreBtn:hover {
+    background-color: #475569;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+    .topBanner h1 {
+        font-size: 32px;
+    }
+
+    .topBanner p {
+        font-size: 15px;
+    }
+
+    .watchButtons {
+        flex-direction: column;
+    }
+
+    .addCartBtn,
+    .moreBtn {
+        width: 100%;
+        text-align: center;
+    }
+}
