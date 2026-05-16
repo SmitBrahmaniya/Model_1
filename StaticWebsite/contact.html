@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | My Dashboard</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script> $(function () { 
+        $("#header").load("header.html");
+        $("#footer").load("footer.html"); 
+        }); 
+    </script>
+</head>
+
+<body>
+<div id="header"></div>
+
+    <section class="contact-section">
+
+        <div class="contact-box">
+            <h1>Contact Us</h1>
+            <p>Have questions about our watches? Send us a message.</p>
+
+            <form>
+                <input type="text" placeholder="Enter Your Name" required>
+
+                <input type="email" placeholder="Enter Your Email" required>
+
+                <input type="text" placeholder="Subject">
+
+                <textarea rows="6" placeholder="Write Your Message"></textarea>
+
+                <button type="submit">
+                    Send Message
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+
+        <div class="info-box">
+            <h2>Get In Touch</h2>
+
+            <p><i class="fa-solid fa-location-dot"></i> Ahmedabad, Gujarat</p>
+
+            <p><i class="fa-solid fa-phone"></i> +91 0123456789</p>
+
+            <p><i class="fa-solid fa-envelope"></i> support@mybrand.com</p>
+
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+
+        <div class="map-box">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.74905395988!2d72.41458843184182!3d23.020473742952362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1778907556039!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+    </section>
+
+<div id="footer"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   
+    color: blue;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+.contact-box,
+.info-box{
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.contact-box h1{
+    margin-bottom: 10px;
+    color: darkblue;
+}
+
+.contact-box p{
+    margin-bottom: 25px;
+    color: blue;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+button{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: darkblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #0ea5e9;
+}
+
+.info-box h2{
+    margin-bottom: 25px;
+    color: darkblue;
+}
+
+.info-box p{
+    margin-bottom: 18px;
+    font-size: 17px;
+}
+
+.info-box i{
+    margin-right: 10px;
+    color: darkblue;
+}
+
+.social{
+    margin-top: 25px;
+}
+
+.social i{
+    font-size: 24px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social i:hover{
+    color: #38bdf8;
+}
+
+.map-box{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.map-box iframe{
+    width: 100%;
+    border-radius: 15px;
+}
+
+input{
+    border: 2px;
+    border-color: navy;
+    border-radius: 5px;
+}
